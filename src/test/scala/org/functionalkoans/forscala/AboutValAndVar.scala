@@ -18,7 +18,7 @@ class AboutValAndVar extends KoanSuite with ShouldMatchers {
     a should be (5)
 
     // What happens if you uncomment these lines?
-    // a = 7
+//    a = 7
     // a should be (5)
   }
   

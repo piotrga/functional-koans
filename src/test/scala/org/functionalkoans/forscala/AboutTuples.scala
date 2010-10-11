@@ -31,4 +31,11 @@ class AboutTuples extends KoanSuite with ShouldMatchers {
     tuple5._5 should be (BigDecimal(5))
   }
 
+  koan("Tuples can be assigned to multiple variables in one line"){
+    val (fruit, animal) = ("apple", "dog")
+
+    fruit should be ("apple")
+    animal should be ("dog")
+  }
+
 }
