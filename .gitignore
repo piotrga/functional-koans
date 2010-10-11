@@ -3,3 +3,4 @@ target
 koans/
 lib_managed/
 project/boot/
+*.i??
