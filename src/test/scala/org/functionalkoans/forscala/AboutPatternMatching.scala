@@ -3,7 +3,7 @@ package org.functionalkoans.forscala
 import support.KoanSuite
 import org.scalatest.matchers.ShouldMatchers
 
-class PatternMatching extends KoanSuite with ShouldMatchers{
+class AboutPatternMatching extends KoanSuite with ShouldMatchers{
 
   koan("matching can be done against list elements"){
     val l = List(1,2,3,4,5,6)

@@ -10,5 +10,5 @@ class PathToEnlightenmentTest extends Suite {
                                    new AboutEmptyValues,
                                    new AboutLists,
                                    new AboutSequencesAndArrays,
-                                   new PatternMatching)
+                                   new AboutPatternMatching)
 }
