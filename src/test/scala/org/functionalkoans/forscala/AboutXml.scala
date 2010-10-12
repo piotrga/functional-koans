@@ -4,6 +4,9 @@ import support.KoanSuite
 import org.scalatest.matchers.ShouldMatchers
 import scala.xml.{Node, XML}
 
+/**
+ * Check http://www.ibm.com/developerworks/library/x-scalaxml/
+ */
 class AboutXml extends KoanSuite with ShouldMatchers{
 
   koan("Can read xml from file"){
